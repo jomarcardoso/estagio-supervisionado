@@ -60,3 +60,17 @@ Versão Desktop concluída, com alguns ajustes pendentes.
 ![Versão 1](arquivos/versao-2.jpg)
 
 **Horas de trabalhadas:** 18
+
+## Versão Mobile
+
+
+![Layout Mobile](arquivos/hotsite-fs-mobile.jpg)
+
+A versão mobile chegou depois da desktop, então eu não sabia como precisava organizar os elementos HTML, mas como optei por usar display: grid, a conversão foi mais simples.
+
+Fiz novamente o grid no Paint:
+![Layout Mobile](arquivos/grid-paint-3.jpg)
+
+Não esperava que o botão de compra mudasse de lugar no grid, coloquei ele para baixo com position: absolute.
+
+**Horas de trabalhadas:** 3
