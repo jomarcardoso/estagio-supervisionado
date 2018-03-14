@@ -1,18 +1,19 @@
 # HOTSITE - FESTIVAL SHOP (SHUTZ)
 
 Recebido layout do novo Hotsite promocional da marca Schutz.
+Todo Hotsite é feito no ambiente de hotsites criado pela equipe []()
 
-![HOTSITE](arquivos/hotsite-fs-desktop.jpg)
+[Layout desktop](arquivos/hotsite-fs-desktop.jpg)
 
 ## Estruturando
 
 Pelo fato das imagens das "prateleiras" de produtos estarem em uma ordem não convencional decidi usar grid-layout para organizar.
 
 **Desenhei o grid no paint:**
-![Grid 1](arquivos/grid-paint-1.png)
+![Grid 1](arquivos/grid-paint-1.jpg)
 
 
-![Grid 2](arquivos/grid-paint-2.png)
+![Grid 2](arquivos/grid-paint-2.jpg)
 Por precisar dar suporte ao Internet Explorer 11, fiz o mesmo de forma compatível
 
 ```
@@ -48,9 +49,9 @@ Nesta forma de trabalhar cada item diz a sua posição e não o container.
 
 **Resultado:**
 
-![Versão 1](arquivos/versao-1.png)
+![Versão 1](arquivos/versao-1.jpg)
 
-**Horas de trabalhadas:** 5
+**Horas trabalhadas:** 5
 
 ## Versão Desktop
 Continuado o trabalho, inserindo html e CSS.
@@ -59,12 +60,12 @@ Versão Desktop concluída, com alguns ajustes pendentes.
 
 ![Versão 1](arquivos/versao-2.jpg)
 
-**Horas de trabalhadas:** 18
+**Horas trabalhadas:** 18
 
 ## Versão Mobile
 
 
-![Layout Mobile](arquivos/hotsite-fs-mobile.jpg)
+[Layout Mobile](arquivos/hotsite-fs-mobile.jpg)
 
 A versão mobile chegou depois da desktop, então eu não sabia como precisava organizar os elementos HTML, mas como optei por usar display: grid, a conversão foi mais simples.
 
@@ -73,4 +74,16 @@ Fiz novamente o grid no Paint:
 
 Não esperava que o botão de compra mudasse de lugar no grid, coloquei ele para baixo com position: absolute.
 
-**Horas de trabalhadas:** 3
+**Horas trabalhadas:** 3
+
+Versão Mobile concluída com todos os alinhamentos e o carrossel funcionando.
+
+**Horas trabalhadas:** 3
+
+Adicionado todos os links e ajustado a responsividade para demais
+
+**Horas trabalhadas:** 6
+
+Como a página vai dentro de outra da plataforma Hybris houve conflito de CSS e precisei sobrescrever alguns
+
+**Horas trabalhadas:** 1
