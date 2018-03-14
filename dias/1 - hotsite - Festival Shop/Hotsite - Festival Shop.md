@@ -1,7 +1,7 @@
 # HOTSITE - FESTIVAL SHOP (SHUTZ)
 
 Recebido layout do novo Hotsite promocional da marca Schutz.
-Todo Hotsite é feito no ambiente de hotsites criado pela equipe []()
+Todo Hotsite é feito no ambiente de hotsites criado pela equipe [Hotsite-template](https://github.com/jomarcardoso/estagio-supervisionado/blob/master/extras/hotsites-template.md)
 
 [Layout desktop](arquivos/hotsite-fs-desktop.jpg)
 
