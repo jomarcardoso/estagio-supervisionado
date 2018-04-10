@@ -24,3 +24,51 @@ Temos 2 lojas que são apenas online e não precisam dessa classe, mas como a cr
 ## LazyLoad
 Classe usada para atrasar o carregamento de imagens para diminuir o carregamento inicial.
 Apenas na loja Arezzo precisei atirar os seletores de elementos DOM, fui nos arquivos JSP que possuiam essas "class" e alterei o nome para o padrão das outras lojas.
+
+## Tooltip
+Tooltip é a caixa de dicas que situacionalmente aparece e é usado em quase todas as páginas. O código dele foi melhorado a cada loja criada, utilizei a versão final criada e fiz algumas adaptações para poder reproduzir em todas as lojas igualmente. Este novo Tooltip deve ter todo seu javascript e também parte do CSS como genérico.
+Uma amostra de como estava em uma das lojas e como será o novo, (apenas o template, sem todos os métodos envolvidos):
+
+**antigo:**
+```
+creditCardValue1: _.template(`
+    <div class="tooltip-credit-card-value-1" data-js="tooltip-content">
+        <div class="tooltip-content">
+            <div class="tooltip-inner">
+            <div class="tooltip-arrow"></div>
+            <div class="tooltip-title">
+                <span>IMPORTANTE</span>
+            </div>
+            <div class="tooltip-msg">
+                <p>
+                    O valor do segundo cartão será calculado automaticamente a partir do valor escolhido para este cartão e do valor total do pedido.
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>`
+),
+```
+
+**novo:**
+```
+const renderTooltip = ({
+    id, title, message, position, after, className, align
+}) => {
+    const $tooltip = $(`
+    <div id="${id}" class="tooltip ${className} js-tooltip tooltip-show tooltip--${position} tooltip--${align}">
+        <div class="tooltip__content">
+            ${title && `<h3 class="tooltip__title">${title}</h3>`}
+            ${message && `<div class="tooltip__message">${message}</div>`}
+        </div>
+    </div>
+    `);
+    if (after) $tooltip.insertAfter(after);
+};
+```
+
+Podemos ver que a versão antiga possuia vários valores fixados no template, logo precisava de 1 para cada tooltip.
+Na nova versão que peguei na útltima loja criada adicionei o "align" para diminuir a quantidade de CSS específico e adicionei também o "className" para enviar 1 ou mais classes.
+
+Concluído insersão em Outstore 10/04/2018.
+
