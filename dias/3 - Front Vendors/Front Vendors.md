@@ -70,5 +70,5 @@ const renderTooltip = ({
 Podemos ver que a versão antiga possuia vários valores fixados no template, logo precisava de 1 para cada tooltip.
 Na nova versão que peguei na útltima loja criada adicionei o "align" para diminuir a quantidade de CSS específico e adicionei também o "className" para enviar 1 ou mais classes.
 
-Concluído insersão em Outstore 10/04/2018.
+
 
