@@ -25,7 +25,7 @@ trabalhamos.
 - **Documentar:**
   - Com Annotation ou no "README.md" podemos descrever cada componente e como utilizá-lo.
   - **BEM:** o intuito mais conhecido do Block Element Modifier (BEM) é melhorar o desempenho do navegador aplicar o CSS,
- mas incluo também a vantagem de fazer o seletor ser facilmente sobrescrito. Vide [Qualidade dos códigos #BEM](../Qualidade dos códigos/Qualidade dos códigos.md#BEM).
+ mas incluo também a vantagem de fazer o seletor ser facilmente sobrescrito. Vide [Qualidade dos códigos #BEM](../Códigos/Códigos.md#BEM).
 
 
 ## FranchiseePopUp
