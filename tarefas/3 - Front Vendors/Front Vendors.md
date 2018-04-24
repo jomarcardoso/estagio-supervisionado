@@ -1,4 +1,5 @@
-#Front Vendors
+# Front Vendors
+[retornar](../../README.md)
 
 Criamos um projeto chamado Front Vendors, lá colocamos todos os códigos que são comuns para todas as lojas. O objetivo é tirar todo o conteúdo genérico das lojas para ali, assim não teremos repetição de código.
 Todas as lojas importam no package.json o "front-vendors", no caso dos scripts apenas precisamos escolher em que tela será importado o código.
@@ -24,7 +25,7 @@ trabalhamos.
 - **Documentar:**
   - Com Annotation ou no "README.md" podemos descrever cada componente e como utilizá-lo.
   - **BEM:** o intuito mais conhecido do Block Element Modifier (BEM) é melhorar o desempenho do navegador aplicar o CSS,
- mas incluo também a vantagem de fazer o seletor ser facilmente sobrescrito. Vide (Qualidade dos códigos #BEM)[../Qualidade dos códigos/Qualidade dos códigos.md#BEM].
+ mas incluo também a vantagem de fazer o seletor ser facilmente sobrescrito. Vide [Qualidade dos códigos #BEM](../Qualidade dos códigos/Qualidade dos códigos.md#BEM).
 
 
 ## FranchiseePopUp
@@ -94,5 +95,5 @@ const renderTooltip = ({
 Podemos ver que a versão antiga possuia vários valores fixados no template, logo precisava de 1 para cada tooltip.
 Na nova versão que peguei na útltima loja criada adicionei o "align" para diminuir a quantidade de CSS específico e adicionei também o "className" para enviar 1 ou mais classes.
 
-
+[retornar](../../README.md)
 

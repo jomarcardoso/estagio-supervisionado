@@ -1,5 +1,7 @@
 # Hotsites Template
 
+[retornar](../../README.md)
+
 A Tarefa aqui constitui-se em melhorar a plataforma para desenvolvimento de dos hotsites.
 
 ### NECESSIDADES:
@@ -21,17 +23,11 @@ O prazo é sempre curto, então tudo que eu puder deixar adiantado é lucro. O q
 ### Rolagem suave
 Achei uma solução fácil no stackoverflow que usa jquery, apenas adicionei o mecânismo de componentização padrão que usamos.
 
-**Horas trabalhadas:** 1
-
 ### Registro de email:
 Fiz aproveitamento dos que já tinham, removi tudo que era específico da página onde peguei. Criei o componente e adicionei um "start" para esse componente, que constitui em enviar o id do formulário e o nome da campanha.
 
-**Horas trabalhadas:** 2.5
-
 ### Contador de contagem regressiva
 Fiz aproveitamento dos que já tinham, removi tudo que era específico da página onde peguei. Criei o componente e adicionei um "start" para esse componente, que constitui em adicionar o tempo final, e o id onde será adicionado os dados do contador.
-
-**Horas trabalhadas:** 1.5
 
 ### Mixin para Grid-layout
 Criei 4 mixins para grid layout que são, a maior complexidade estava em conhecer a sintaxe do SASS e no cálculo dos tamanhos que envolvia uma lógica de pegar todos os tamanhos e transformar em porcentagem.
@@ -42,9 +38,7 @@ Criei 4 mixins para grid layout que são, a maior complexidade estava em conhece
 
 Incluí na documentação a forma de uso e um exemplo.
 
-**Horas trabalhadas:** 4
-
 ### Fonts
 Inclui os @font-face de todas as marcas para não precisar procurar a cada vez que for criar um novo hotsite.
 
-**Horas trabalhadas:** 2
+[retornar](../../README.md)

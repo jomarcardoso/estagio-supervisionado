@@ -1,7 +1,9 @@
-# Qualidade dos códigos
+# Padrões de Projeto
+[retornar](../../README.md)
+
 Aqui documentarei todos os novos padrões.
 
-## BEM
+## <a name="BEM">BEM</a>
 o intuito mais conhecido do Block Element Modifier (BEM) é melhorar o desempenho do navegador aplicar o CSS,
 mas incluo também a vantagem de fazer o seletor ser facilmente sobrescrito. Não usaremos este como bala de prata,
 combinaremos com aninhamento para assim criar seletores mais fortes, exemplo:
@@ -62,3 +64,5 @@ Então será usado BEM em todos os componentes para que cada marca possa adicion
     }
 }
 ```
+
+[retornar](../../README.md)

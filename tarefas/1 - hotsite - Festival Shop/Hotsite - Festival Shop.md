@@ -1,4 +1,5 @@
 # HOTSITE - FESTIVAL SHOP (SHUTZ)
+[retornar](../../README.md)
 
 Recebido layout do novo Hotsite promocional da marca Schutz.
 Todo Hotsite é feito no ambiente de hotsites criado pela equipe [Hotsite-template](https://github.com/jomarcardoso/estagio-supervisionado/blob/master/extras/hotsites-template.md)
@@ -74,16 +75,10 @@ Fiz novamente o grid no Paint:
 
 Não esperava que o botão de compra mudasse de lugar no grid, coloquei ele para baixo com position: absolute.
 
-**Horas trabalhadas:** 3
-
 Versão Mobile concluída com todos os alinhamentos e o carrossel funcionando.
-
-**Horas trabalhadas:** 3
 
 Adicionado todos os links e ajustado a responsividade para demais
 
-**Horas trabalhadas:** 6
+Como a página vai dentro de outra da plataforma Hybris houve conflito de CSS e precisei sobrescrever alguns.
 
-Como a página vai dentro de outra da plataforma Hybris houve conflito de CSS e precisei sobrescrever alguns
-
-**Horas trabalhadas:** 1
+[retornar](../../README.md)
