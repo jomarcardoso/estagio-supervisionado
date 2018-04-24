@@ -3,6 +3,26 @@
 Criamos um projeto chamado Front Vendors, lá colocamos todos os códigos que são comuns para todas as lojas. O objetivo é tirar todo o conteúdo genérico das lojas para ali, assim não teremos repetição de código.
 Todas as lojas importam no package.json o "front-vendors", no caso dos scripts apenas precisamos escolher em que tela será importado o código.
 
+Encontrei aqui a melhor forma de melhor os códigos do ecommerce, pois todo o conteúdo é importado na forma de plugin, logo
+são módulos independentes das lojas, e poderei aplicar boas práticas que atualmente não usamos nos códigos legados que
+trabalhamos.
+
+### Lista de boas práticas que serão aplicadas:
+- **Mobile First:**
+  - Será aplicado primeiro o CSS que servirá ao mobile e depois sobrescrito conforme aumenta a resolução.
+  - Se usado imagens háverá uma imagem para mobile de menor tamanho.
+  - Em JS é usado a verificação ```isMobile()``` e aí sobrescrito novos valores ao objeto, da forma mais eficiente
+  não haverá sobrescrita e sim adiciona um valor ou outro.
+- **Class:**
+  - Aos poucos estamos substituindo "Backbone.js" por classes Ecma6 graças ao Babel.
+  - **Atributos privados:** com JS pode-se criar atributos/métodos privados colocando-os no mesmo escopo da classe, porém
+  fora dela.
+  - **Getters/Setters:** os atributos que podem ser alterados ou obtidos externamente e possuem alguma regra para isto podem
+  ser protegidos com ```get``` e ```set```, assim quando houver a acesso ao atributo o método é que será chamado.
+- **Documentar:**
+  - Com Annotation ou no "README.md" podemos descrever cada componente e como utilizá-lo.
+
+
 ## FranchiseePopUp
 As lojas Arezzo, Anacapri, Fiever e Schutz adotaram uma nova tela de "Seja um franqueado", resolvi tirar o conteúdo repetido de duas páginas que já tinham sido feitas e adicionei o código ao front vendors.
 O script colocado lá tem escuta se há clique na classe "open-pop-up".
