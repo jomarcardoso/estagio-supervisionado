@@ -14,4 +14,4 @@ Melhorar habilidades e conhecimeto com hotsites variados.
 [Front Vendors](tarefas/3 - Front Vendors/Front Vendors.md)
 [Organizar](tarefas/4 - Organizar/Organizar.md)
 [Melhoria de processos](tarefas/5 - Processos/Processos.md)
-[Padrões de projeto](tarefas/6 - Códigos/Códigos.md)
+[Padrões de projeto](tarefas/Códigos/Códigos.md)
