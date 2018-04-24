@@ -9,9 +9,9 @@ Pretendo fazer melhorias de códigos, padrões e processos para facilitar entreg
 Melhorar habilidades e conhecimeto com hotsites variados.
 
 ### Tarefas que estarei envolvido
-[Hotsite Festival Shop](tarefas/1 - hotsite - Festival Shop/Hotsite - Festival Shop.md)
-[Hotsites Template](tarefas/2 - Hotsites Template/Hotsites Template.md)
-[Front Vendors](tarefas/3 - Front Vendors/Front Vendors.md)
-[Organizar](tarefas/4 - Organizar/Organizar.md)
-[Melhoria de processos](tarefas/5 - Processos/Processos.md)
-[Padrões de projeto](tarefas/Códigos/Códigos.md)
+- [Hotsite Festival Shop](tarefas/Festival-Shop/Festival-Shop.md)
+- [Hotsites Template](tarefas/Hotsites-Template/Hotsites-Template.md)
+- [Front Vendors](tarefas/Front-Vendors/Front-Vendors.md)
+- [Organizar](tarefas/Organizar/Organizar.md)
+- [Melhoria de processos](tarefas/Processos/Processos.md)
+- [Padrões de projeto](tarefas/Códigos/Códigos.md)
