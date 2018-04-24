@@ -19,8 +19,12 @@ trabalhamos.
   fora dela.
   - **Getters/Setters:** os atributos que podem ser alterados ou obtidos externamente e possuem alguma regra para isto podem
   ser protegidos com ```get``` e ```set```, assim quando houver a acesso ao atributo o método é que será chamado.
+  - **Objeto parâmetro:** Muito útil utilizar apenas um objeto de parâmetro de uma função, assim se precisar adicionar
+  mais não haverá conflito ou necessidade de chamadas como ```call(null, '', valor...)```.
 - **Documentar:**
   - Com Annotation ou no "README.md" podemos descrever cada componente e como utilizá-lo.
+  - **BEM:** o intuito mais conhecido do Block Element Modifier (BEM) é melhorar o desempenho do navegador aplicar o CSS,
+ mas incluo também a vantagem de fazer o seletor ser facilmente sobrescrito. Vide (Qualidade dos códigos #BEM)[../Qualidade dos códigos/Qualidade dos códigos.md#BEM].
 
 
 ## FranchiseePopUp

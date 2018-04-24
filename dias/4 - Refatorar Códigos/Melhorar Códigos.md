@@ -19,3 +19,6 @@ Após aplicado a imagem "problemática" passou a ter 27kB e as demais também di
 
 ### Trocar @include por @extend
 Aqui usamos SASS para compilar o CSS e as vezes por falta de conhecimento ou costume usam os mixins para uma determinada classe ter um comportamento, mas em muitos casos o "@extend" é mais eficiente, pois não gera repetição de código no ".css".
+
+### Pastas do projeto
+As pastas de JS/CSS da lojas não seguem um padrão, alguns códigos estão dentro de "/assets", outros dentro de "/src"
